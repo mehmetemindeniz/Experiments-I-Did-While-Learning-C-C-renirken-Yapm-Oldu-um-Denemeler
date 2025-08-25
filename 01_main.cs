@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,49 +11,49 @@ namespace _01_TemelKonular
         static void Main(string[] args)
         {
             #region Yazdırma Komutları
-            //Console.WriteLine("Merhaba Dünya");
-            //Console.Read();
+            Console.WriteLine("Merhaba Dünya");
+            Console.Read();
             #endregion
 
             #region String Değişkenler
-            //string name;
-            //name = "Emin";
-            //Console.Write(name);
+            string name;
+            name = "Emin";
+            Console.Write(name);
 
-            //string isim, soyIsim, yas;
-            //isim = "Emin";
-            //soyIsim = "Deniz";
-            //yas = "20";
-            //Console.WriteLine("***** Bilgiler *****");
-            //Console.WriteLine();
-            //Console.WriteLine("bilgiler: " + isim + " " + soyIsim);
+            string isim, soyIsim, yas;
+            isim = "Emin";
+            soyIsim = "Deniz";
+            yas = "20";
+            Console.WriteLine("***** Bilgiler *****");
+            Console.WriteLine();
+            Console.WriteLine("bilgiler: " + isim + " " + soyIsim);
 
             #endregion
 
             #region Integer Değişkenler
-            //// int 
-            ////int yas;
-            ////yas = 20;
-            ////Console.WriteLine(yas);
+             int 
+             int yas;
+             yas = 20;
+            Console.WriteLine(yas);
 
-            //// Bir Menü Hesap Örneği
-            //int hamburgerFiyat = 300;
-            //int kolafiyat = 50;
-            //int patatesFiyat = 100;
+            // Bir Menü Hesap Örneği
+            int hamburgerFiyat = 300;
+            int kolafiyat = 50;
+            int patatesFiyat = 100;
 
-            //// Alınan adetler :
-            //int hamburgerSayisi = 3;
-            //int kolaSayisi = 3;
-            //int patatesSayisi = 1;
+            // Alınan adetler :
+            int hamburgerSayisi = 3;
+            int kolaSayisi = 3;
+            int patatesSayisi = 1;
 
-            //// Tutarlar Parça Parça
-            //int hamburgerTutar = hamburgerFiyat * hamburgerSayisi;
-            //int kolaTutar = kolafiyat * kolaSayisi;
-            //int patatesTutar = patatesFiyat * patatesSayisi;
+            // Tutarlar Parça Parça
+            int hamburgerTutar = hamburgerFiyat * hamburgerSayisi;
+            int kolaTutar = kolafiyat * kolaSayisi;
+            int patatesTutar = patatesFiyat * patatesSayisi;
 
-            //// Toplam Tutar:
-            //int totalTutar = hamburgerTutar + kolaTutar + patatesTutar;
-            //Console.WriteLine("Toplam Tutar " + totalTutar + " " + "TL");
+            // Toplam Tutar:
+            int totalTutar = hamburgerTutar + kolaTutar + patatesTutar;
+            Console.WriteLine("Toplam Tutar " + totalTutar + " " + "TL");
 
             #endregion
 
